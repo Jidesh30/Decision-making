@@ -3,9 +3,12 @@
 int main()
 
 {
+    // Asking the user to enter their mark.
     int mark=0;
     printf("Enter the student mark:");
     scanf("%d", &mark);
+
+    // using if else ladder statement finding which grade is assigned for the user given mark.
 
     if(mark>=85 && mark<=100)
     {
@@ -25,6 +28,7 @@ int main()
     }
     else
     {
+        // if all the above mentioned is not true this last statement is executed.
         printf("Grade F");
     }
 
